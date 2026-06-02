@@ -4,6 +4,13 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
+      transitionTimingFunction: {
+        'spring': 'cubic-bezier(0.32,0.72,0,1)',
+        'spring-bouncy': 'cubic-bezier(0.68,-0.55,0.26,1.55)',
+      },
       colors: {
         purple: {
           50: '#f5f3ff',
